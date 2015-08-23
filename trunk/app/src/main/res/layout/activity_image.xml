@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe3e1e2"
+    android:id="@+id/scroll_view_activity_image"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Main photo -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:background="@drawable/round_corner_black"
+            android:orientation="horizontal">
+
+            <com.m2team.xna.utils.TouchImageView
+                android:id="@+id/photo_fullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar_load_photo"
+                android:layout_gravity="center"
+                />
+
+
+        </FrameLayout>
+        <View android:layout_height="4dp"
+            android:layout_width="match_parent"
+            />
+
+        <!-- Toolbar -->
+        <com.capricorn.RayMenu
+            android:id="@+id/ray_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="bottom|left"
+            />
+
+        <View android:layout_height="4dp"
+            android:layout_width="match_parent"
+            />
+
+        <!-- Photo general exif -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/round_corner"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_full_content_image_include" />
+
+            <include layout="@layout/layout_full_content_ads_include" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

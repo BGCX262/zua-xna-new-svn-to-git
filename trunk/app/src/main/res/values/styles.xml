@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="myTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="fullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <!-- Here will be the theme of the class that will extends NavigationLiveo -->
+    <style name="nLiveoDrawer" parent="nLiveo.Theme.DarkActionBar">
+        <item name="colorPrimary">@color/material_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/material_deep_orange_500</item>
+        <item name="colorAccent">@color/material_deep_orange_500</item>
+    </style>
+    <style name="nLiveoDrawer_Blue" parent="nLiveo.Theme.DarkActionBar">
+        <item name="colorPrimary">@color/nliveo_blue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_blue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_blue_alpha_colorPrimaryDark</item>
+    </style>
+    <style name="nLiveoDrawer_Green" parent="nLiveo.Theme.DarkActionBar">
+        <item name="colorPrimary">@color/nliveo_green_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_green_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_green_alpha_colorPrimaryDark</item>
+    </style>
+    <style name="nLiveoDrawer_Red" parent="nLiveo.Theme.DarkActionBar">
+        <item name="colorPrimary">@color/nliveo_red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_red_alpha_colorPrimaryDark</item>
+    </style>
+    <style name="nLiveoDrawer_Lime" parent="nLiveo.Theme.DarkActionBar">
+        <item name="colorPrimary">@color/nliveo_lime_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_lime_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_lime_alpha_colorPrimaryDark</item>
+    </style>
+
+    <style name="textSmallStyle" parent="nLiveoDrawer">
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textColor">@color/material_grey_500</item>
+    </style>
+
+    <style name="textMediumStyle" parent="nLiveoDrawer">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textColor">@color/material_grey_700</item>
+        <item name="android:layout_marginBottom">4dp</item>
+
+    </style>
+
+    <style name="textImgStyle" parent="nLiveoDrawer">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textColor">@color/secondary_text_material_light</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="child_layout" parent="nLiveoDrawer">
+        <item name="android:background">@drawable/bg_child_layout</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ImageInfoIconStyle" parent="nLiveoDrawer">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+</resources>

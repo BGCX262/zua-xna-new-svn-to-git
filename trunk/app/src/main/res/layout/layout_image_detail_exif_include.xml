@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_below="@+id/ll_parent_camera_model"
+    android:id="@+id/ll_parent_exif_info"
+    style="@style/child_layout">
+
+    <!--Iso and s -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ll_info_row_1"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp">
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_lens"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_iso"
+            />
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_clock_128"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_aperture" />
+    </LinearLayout>
+    <!--f and flash -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ll_info_row_2"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp">
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_aperture" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_fnumber" />
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_flash" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_flash" />
+    </LinearLayout>
+    <!-- focal and rgb -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ll_info_row_3"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp">
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_focus" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_focal" />
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_rgb" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_rgb" />
+    </LinearLayout>
+    <!-- w and height -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ll_info_row_4"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp">
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_dimen" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_width" />
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_dimen" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/info_height" />
+    </LinearLayout>
+    <!-- sw -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ll_info_row_5"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp">
+
+        <ImageView
+            style="@style/ImageInfoIconStyle"
+            android:src="@drawable/ic_software" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_weight="7"
+            android:id="@+id/info_software" />
+
+    </LinearLayout>
+</LinearLayout>

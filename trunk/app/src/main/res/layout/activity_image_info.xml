@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    tools:context="com.m2team.xna.activity.ImageInfoActivity"
+    android:fillViewport="false"
+    android:id="@+id/scroll_view_activity_image_info"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:id="@+id/ll_parent_camera_model"
+            style="@style/child_layout"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/camera"
+                android:id="@+id/info_icon_camera" />
+
+            <com.m2team.xna.custom.LabelTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/info_camera_text"
+                android:text="@string/no_info"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!--info of exif info -->
+        <include layout="@layout/layout_image_detail_exif_include" />
+
+        <!--info of image -->
+        <include layout="@layout/layout_image_detail_info_include" />
+
+        <!--info of user -->
+        <include layout="@layout/layout_image_detail_user_info_include" />
+
+        <!--info of image -->
+        <include layout="@layout/layout_image_detail_link_web_include" />
+
+        <!--ads -->
+        <include layout="@layout/layout_image_detail_ads_include" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
+

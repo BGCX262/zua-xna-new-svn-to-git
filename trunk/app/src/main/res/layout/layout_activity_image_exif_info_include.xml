@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/ll_image_exif"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_iso_1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_lens"
+            android:id="@+id/ic_iso_1"
+            />
+
+        <TextView
+            android:id="@+id/photo_iso_general"
+            android:layout_width="wrap_content"
+            style="@style/textMediumStyle"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_aperture_1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_clock_128"
+            android:id="@+id/ic_aperture_1"
+            />
+
+        <TextView
+            android:id="@+id/photo_aperture_general"
+            android:layout_width="wrap_content"
+            style="@style/textMediumStyle"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_shutter_1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_aperture"
+            android:id="@+id/ic_shutter_1"
+            />
+
+        <TextView
+            android:id="@+id/photo_shutter_general"
+            android:layout_width="wrap_content"
+            style="@style/textMediumStyle"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

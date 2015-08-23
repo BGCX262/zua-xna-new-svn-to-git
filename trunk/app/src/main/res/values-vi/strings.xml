@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XNA</string>
+    <string name="app_slogan">Where the art begin...</string>
+    <string name="settings">Thiết lập</string>
+    <string name="error_connectivity">Kiểm tra lại kết nối internet</string>
+
+    <!-- Toast -->
+    <string name="open_user_profile">Cầm máy lên và đi...!!!</string>
+    <string name="vn_lang_value">Việt Nam</string>
+    <string name="en_lang_value">Tiếng Anh</string>
+    <string name="en_lang_key">en</string>
+    <string name="vn_lang_key">vi</string>
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="language">Ngôn ngữ</string>
+    <!--Category -->
+    <string name="STAFF_CHOICE">Nổi bật</string>
+    <string name="LANDSCAPE">Phong cảnh</string>
+    <string name="PORTRAIT">Chân dung</string>
+    <string name="NATURE">Thiên nhiên</string>
+    <string name="STREET_LIFE">Đời thường</string>
+    <string name="MACRO">Macro</string>
+    <string name="ARCHITECTURE">Kiến trúc</string>
+    <string name="TRAVEL">Du lịch</string>
+    <string name="ANIMAL">Động vật</string>
+    <string name="BW">Đen trắng</string>
+    <string name="SPORT">Thể thao</string>
+    <string name="Abstract">Trừu tượng</string>
+    <string name="Advertisement">Quảng cáo</string>
+    <string name="Conceptual">Ý niệm</string>
+    <string name="Experimental">Đồ họa</string>
+    <string name="Fashion">Thời trang</string>
+    <string name="Journalism">Báo chí</string>
+    <string name="Nude">Khỏa thân</string>
+    <string name="Other">Khác</string>
+    <string name="Panorama">Panorama</string>
+    <string name="Product">Sản phẩm</string>
+    <string name="Stage">Sân khấu</string>
+    <string name="Still_Life">Tĩnh vật</string>
+    <string name="Wedding">Đám cưới</string>
+    <!-- End -->
+    <string name="sign_in">Đăng nhập</string>
+    <string name="about">Thông tin XÓM nhiếp ảnh</string>
+    <string name="about_title">Thông tin</string>
+    <string name="current_version">Phiên bản hiện tại: %s</string>
+    <string name="general">Thông tin chung</string>
+    <string name="no_info">Không có thông tin</string>
+    <string name="no_name">Không tên</string>
+    <string name="product_info">Thông tin tác phẩm</string>
+    <string name="author_info">Thông tin tác giả</string>
+    <string name="single_photo">Ảnh đơn</string>
+    <string name="date_join">Ngày tham gia</string>
+    <string name="choose_photo">Ảnh chọn</string>
+    <string name="comment">Bình luận</string>
+    <string name="author">Tác giả</string>
+    <!-- Label -->
+    <string name="category">Thể loại</string>
+    <string name="comments">Bình luận</string>
+    <string name="date_added">Ngày upload</string>
+    <string name="download_completed">Tải xuống hoàn thành</string>
+    <string name="download_failed">Tải xuống thất bại</string>
+    <string name="download_starting">Bắt đầu tải...</string>
+    <string name="error_loading_image">Lỗi khi load ảnh. </string>
+    <string name="favorite">Yêu thích</string>
+    <string name="share_error">Chia sẻ ảnh bị lỗi</string>
+    <string name="title">Tiêu đề</string>
+    <string name="username">Username</string>
+    <string name="view">Lượt xem</string>
+    <string name="source_link">Link gốc</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_content">Refresh...</string>
+</resources>

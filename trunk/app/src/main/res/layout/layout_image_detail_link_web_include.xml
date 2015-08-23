@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hm="http://schemas.android.com/apk/res-auto"
+    android:layout_below="@+id/ll_info_user"
+    android:id="@+id/ll_info_web_link"
+    android:orientation="vertical"
+    style="@style/child_layout">
+
+    <com.m2team.xna.custom.LabelTextView
+        hm:fontStyle="light"
+        android:layout_width="match_parent"
+        style="@style/textSmallStyle"
+        android:text="@string/source_link"
+        android:layout_gravity="center_vertical" />
+
+    <com.m2team.xna.custom.LabelTextView
+        android:layout_width="match_parent"
+        android:id="@+id/info_web_link"
+        style="@style/textMediumStyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColorLink="@color/material_blue_500"
+        android:autoLink="web"
+        />
+
+</LinearLayout>

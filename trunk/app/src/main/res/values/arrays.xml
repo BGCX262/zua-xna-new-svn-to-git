@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_key_array">
+        <item name="en">@string/en_lang_value</item>
+        <item name="vn">@string/vn_lang_value</item>
+    </string-array>
+    <string-array name="language_value_array">
+        <item name="en">@string/en_lang_key</item>
+        <item name="vn">@string/vn_lang_key</item>
+    </string-array>
+    <string-array name="menu_values">
+        <item>@string/LANDSCAPE</item>
+        <item>@string/PORTRAIT</item>
+        <item>@string/NATURE</item>
+        <item>@string/STREET_LIFE</item>
+        <item>@string/MACRO</item>
+        <item>@string/ARCHITECTURE</item>
+        <item>@string/TRAVEL</item>
+        <item>@string/ANIMAL</item>
+        <item>@string/BW</item>
+        <item>@string/SPORT</item>
+        <item>@string/Abstract</item>
+        <item>@string/Advertisement</item>
+        <item>@string/Conceptual</item>
+        <item>@string/Experimental</item>
+        <item>@string/Fashion</item>
+        <item>@string/Journalism</item>
+        <item>@string/Nude</item>
+        <item>@string/Other</item>
+        <item>@string/Panorama</item>
+        <item>@string/Product</item>
+        <item>@string/Stage</item>
+        <item>@string/Still_Life</item>
+        <item>@string/Wedding</item>
+    </string-array>
+    <string-array name="theme_color_key_array">
+        <item>@string/green</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/orange</item>
+        <item>@string/lime</item>
+    </string-array>
+    <string-array name="theme_color_value_array">
+        <item>@string/green</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/orange</item>
+        <item>@string/lime</item>
+    </string-array>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="orange">Orange</string>
+    <string name="lime">Lime</string>
+</resources>

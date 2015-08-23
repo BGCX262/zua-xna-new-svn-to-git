@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="@string/language">
+        <ListPreference
+            android:key="pref_language"
+            android:title="@string/choose_language"
+            android:entries="@array/language_key_array"
+            android:entryValues="@array/language_value_array" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="@string/general">
+        <ListPreference
+            android:key="pref_theme_color"
+            android:title="@string/choose_theme"
+            android:entries="@array/theme_color_key_array"
+            android:entryValues="@array/theme_color_value_array" />
+        <Preference
+            android:key="pref_about"
+            android:title="@string/about_title" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

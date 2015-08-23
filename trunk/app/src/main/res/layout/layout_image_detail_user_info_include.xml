@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hm="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_below="@+id/ll_info_image"
+    style="@style/child_layout"
+    android:id="@+id/ll_info_user"
+    >
+
+    <com.m2team.xna.custom.LabelTextView
+        hm:fontStyle="light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_image_author_txt"
+        android:gravity="left|center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="4dp"
+        android:text="@string/author_info"
+        android:textSize="20sp"
+        android:textColor="@color/primary_dark_material_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_image_author_txt"
+        android:id="@+id/ll_info_user_row_0"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/username"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_name"
+                android:layout_gravity="center_vertical"
+                style="@style/textMediumStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/author"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_full_name"
+                android:maxLines="2"
+                style="@style/textMediumStyle"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_info_user_row_0"
+        android:id="@+id/ll_info_user_row_1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_info_user_col_1"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/single_photo"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_single_image_count"
+                android:text="0"
+                android:layout_gravity="center_vertical"
+                style="@style/textMediumStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_info_user_col_2"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/date_join"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_register_date"
+                style="@style/textMediumStyle"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_info_user_row_1"
+        android:id="@+id/ll_info_user_row_2"
+        android:weightSum="1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/choose_photo"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_star_image_count"
+                android:text="0"
+                style="@style/textMediumStyle"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="light"
+                android:layout_width="match_parent"
+                android:text="@string/comment"
+                style="@style/textSmallStyle"
+                android:layout_gravity="center_vertical" />
+
+            <com.m2team.xna.custom.LabelTextView
+                hm:fontStyle="regular"
+                android:layout_width="match_parent"
+                android:id="@+id/info_user_comment_count"
+                android:text="0"
+                android:layout_gravity="center_vertical"
+                style="@style/textMediumStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
